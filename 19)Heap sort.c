@@ -54,7 +54,7 @@ void printArray(int arr[], int N)
 
 int main()
 {
-	int arr[] = { 12, 11, 13, 5, 6, 7 };
+	int arr[] = {8,11,5,6,10};
 	int N = sizeof(arr) / sizeof(arr[0]);
 
 	heapSort(arr, N);
